@@ -9,24 +9,17 @@
 
 section {
   padding: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 1280px;
   margin: 40px auto;
 }
 section ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 section ul li {
   list-style-type: none;
   background: #eee;
-  padding: 12px 20px;
+  padding: 8px 20px;
   margin: 5px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -37,19 +30,14 @@ section ul li.active {
 }
 .product {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 .product .itemBox {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: 5px;
   display: block;
-}
-.product .itemBox.hide {
-  display: none;
 }
 
 .product .itemBox img {
